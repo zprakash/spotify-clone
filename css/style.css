@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Jaldi", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.leftContainer {
+    width: 20vw;
+}
+
+.rightContainer {
+    width: 80vw;
+}
+
+.upperBoxHome ul li {
+    display: flex;
+    gap: 6px;
+    width: 10px;
+    list-style: none;
+    padding-top: 15px;
+    align-items: center;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+.headings {
+    display: flex;
+    gap: 6px;
+    width: 100%;
+    padding-top: 15px;
+    align-items: center;
+    font-size: 15;
+}
+
+.headings img {
+    width: 23px;
+}
+
+.lowerBoxLibrary {
+    min-height: 80vh;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.header>* {
+    padding: 1px;
+}
+
+.footer {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a {
+    color: gray;
+}
+
+.spotifyPlaylists {
+    padding: 5px;
+}
+
+.boxContainer {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 10px;
+    overflow-y: scroll;
+    max-height: 74vh;
+}
+
+.box {
+    width: 190px;
+    background-color: #252525;
+    position: relative;
+}
+
+.box>* {
+    margin: 2px 0;
+}
+
+.box img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.playButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #37d13c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 23px;
+    top: 150px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+.playButton img {
+    width: 33px;
+}
+
+.button > *{
+    margin: 0 8px;
+}
+
+.signupButton {
+    color: rgb(179, 176, 176);
+    border-radius: 10px;
+    padding: 6px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.signupButton:hover {
+    color: white;
+}
+
+.loginButton {
+    width: 80px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 6px;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.loginButton:hover{
+    transform: scale(1.05);
+}
+

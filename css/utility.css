@@ -1,0 +1,85 @@
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.center-items {
+    align-items: center;
+}
+
+.border {
+    border: 3px solid red;
+    margin: 4px;
+}
+
+.black-bg {
+    background-color: #010409;
+    color: white;
+}
+
+.secondary-bg {
+    background-color: #171616;
+    color: white;
+}
+
+.round-border {
+    border-radius: 10px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1{
+    padding: 15px;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 15px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #666; 
+    border-radius: 6px; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+  }
+  
+  * {
+    scrollbar-width: thin; 
+    scrollbar-color: #666 #333;
+  }
+  
+  body {
+    scrollbar-face-color: #666; 
+    scrollbar-track-color: #333;
+  }
+  

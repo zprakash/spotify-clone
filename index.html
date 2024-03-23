@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <title>Spotify Clone</title>
 </head>
+
 <body>
-    
+    <div class="container flex black-bg">
+        <div class="leftContainer">
+            <div class="upperBoxHome secondary-bg round-border m-1 p-1">
+                <div class="logo">
+                    <img class="invert" src="svg/logo.svg" alt="logo">
+                </div>
+                <ul>
+                    <li><img class="invert" src="svg/home.svg" alt="home"> Home</li>
+                    <li><img class="invert" src="svg/search.svg" alt="search"> Search</li>
+                </ul>
+            </div>
+            <div class="lowerBoxLibrary secondary-bg round-border m-1 p-1">
+                <div class="headings">
+                    <img class="invert" src="svg/library.svg" alt="library">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="footer">
+                    <div><a href="#">Home</a></div>
+                    <div><a href="#">About Us</a></div>
+                    <div><a href="#">Services</a></div>
+                    <div><a href="#">Contact Us</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="rightContainer secondary-bg m-1  round-border">
+            <div class="header p-1">
+                <div class="nav">
+                    <img src="svg/arrow/left.svg" alt="">
+                    <img src="svg/arrow/right.svg" alt="">
+                </div>
+                <div class="button">
+                    <button class="signupButton">Sign Up</button>
+                    <button class="loginButton">Log In</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1> Spotify Playlists</h1>
+                <div class="boxContainer">
+                    <div class="box p-1 round-border ">
+                        <div class="playButton">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img class="round-border"
+                            src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                            alt="">
+                        <h2> Top 50- Global</h2>
+                        <p>Your daily update of the most played tracks right now - Global.</p>
+                    </div>
+                    <div class="box  p-1 round-border ">
+                        <img class="round-border"
+                            src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg"
+                            alt="">
+                        <h2> Top 50- Global</h2>
+                        <p>Your daily update of the most played tracks right now - Global.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
